@@ -1,0 +1,70 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s; /* Agregamos transición para suavizar el cambio de color */
+}
+
+nav a:hover {
+    color: #ffa500; /* Cambiamos el color al pasar el mouse */
+}
+
+#logo img {
+    width: 100px; /* Ajusta el ancho según tus necesidades */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-right: 10px; /* Espacio entre el logo y el texto */
+}
+
+#content {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.marquee {
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+}
+
+.marquee img {
+    max-width: 100px; /* Ajusta el ancho máximo según tus necesidades */
+    max-height: 100px; /* Ajusta la altura máxima según tus necesidades */
+    margin-right: 20px;
+    animation: marquee 15s linear infinite;
+}
